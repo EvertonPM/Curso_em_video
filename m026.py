@@ -1,0 +1,5 @@
+y=input("Digite uma frase: ")
+x=y.upper()
+print("essa frase tem {} letra A".format(x.count("A")))
+print("a posicão da primeira letra A é {}".format(x.find("A")))
+print("a posicão da ultima letra A é {}".format(x.rfind("A")))

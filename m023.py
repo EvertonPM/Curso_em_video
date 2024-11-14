@@ -1,0 +1,6 @@
+x=int(input("Digite um numero: "))
+y=str(x)
+print("unidade: {}".format(y[-1]))
+print("dezena: {}".format(y[-2]))
+print("centena: {}".format(y[-3]))
+print("milhar: {}".format(y[-4]))
